@@ -27,7 +27,7 @@ public class Druid {
             dataSource = new DruidDataSource();
             //四个基本属性
             dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-            dataSource.setUrl("jdbc:mysql://mysql:3306/sampledb");
+            dataSource.setUrl("jdbc:mysql://mysql.poc-java-demo:3306/sampledb");
             dataSource.setUsername("userE7G");
             dataSource.setPassword("CETGIHD6RCEDn4CV");
             //其他属性
