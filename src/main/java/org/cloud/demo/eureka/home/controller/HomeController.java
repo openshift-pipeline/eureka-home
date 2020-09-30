@@ -21,7 +21,7 @@ public class HomeController {
 	
 	@GetMapping("/getdbuser")
 	public Object getdbuser(@RequestParam String name) throws SQLException {
-		//return Druid.getDruidTest();
-		return "dbuser";
+		return Druid.getDruidTest();
+		//return "dbuser";
 	}
 }
